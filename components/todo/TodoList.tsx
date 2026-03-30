@@ -29,7 +29,7 @@ export function TodoList() {
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
       <Ionicons name="checkmark-circle-outline" size={80} color="#ddd" />
-      <Text style={styles.emptyTitle}>No todos available at this time!</Text>
+      <Text style={styles.emptyTitle}>No todos at all</Text>
       <Text style={styles.emptyDescription}>
         {state.filter.search ||
         state.filter.status ||
